@@ -35,7 +35,7 @@ libreto() {
                 ;;
 
             TASKS.md)
-                printf '# TASKS — ¿Qué hay que construir y en qué orden?\n<!-- Organiza aquí el trabajo real del proyecto. Las fases y tareas dependen del proyecto; esta estructura no es obligatoria. -->\n\n## Fase 1 — Título\n<!-- Define una etapa de trabajo y cambia su estado cuando corresponda: ⬜ Pendiente, 🔄 En progreso o ✅ Hecho. -->\n\n- [ ] Tarea\n\n## Fase 2 — Título\n\n- [ ] Tarea\n\n## Fase 3 — Título\n\n- [ ] Tarea\n\n## Completado\n<!-- Puedes utilizar esta sección para tareas terminadas que ya no necesiten permanecer dentro de sus fases originales. -->\n\n- [x] Tarea completada\n\n## Backlog / ideas futuras\n<!-- Ideas o trabajos que podrían hacerse más adelante, pero que no forman parte del trabajo actual. -->\n\n- [ ] Idea\n' > "$file"
+                printf '# TASKS — ¿Qué hay que construir y en qué orden?\n<!-- Organiza aquí el trabajo real del proyecto. Las fases y tareas dependen del proyecto; esta estructura no es obligatoria. -->\n\n## Fase 1 — Título\n<!-- Define una etapa de trabajo y cambia su estado cuando corresponda: Pendiente, En progreso o Hecho. -->\n\n- [ ] Tarea\n\n## Fase 2 — Título\n\n- [ ] Tarea\n\n## Fase 3 — Título\n\n- [ ] Tarea\n\n## Completado\n<!-- Puedes utilizar esta sección para tareas terminadas que ya no necesiten permanecer dentro de sus fases originales. -->\n\n- [x] Tarea completada\n\n## Backlog / ideas futuras\n<!-- Ideas o trabajos que podrían hacerse más adelante, pero que no forman parte del trabajo actual. -->\n\n- [ ] Idea\n' > "$file"
                 ;;
 
             DECISIONS.md)
