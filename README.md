@@ -1,2 +1,3 @@
-# Rama
-- main para fish
+# funciones:
+- Fish 🦈
+- Zsh 🔢
